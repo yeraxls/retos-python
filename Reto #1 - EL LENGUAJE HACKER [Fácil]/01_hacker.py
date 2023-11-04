@@ -53,6 +53,6 @@ def leet_lang(text):
     for letter in text.upper():
         output += ALPHABET.get(letter) if ALPHABET.get(letter) else letter
 
-    print( output )
+    print(output)
 
-leet_lang("Esto es una prueba")
+leet_lang("Segundo reto en python")
