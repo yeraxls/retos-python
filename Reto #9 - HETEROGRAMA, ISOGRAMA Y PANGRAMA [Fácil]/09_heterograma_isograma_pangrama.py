@@ -4,7 +4,7 @@ def es_heterograma(text: str):
     print(f"comprobación de heterograma: {text}")
     letras = set(text)
     
-    print(f"{text}{"" if len(letras) == len(text) else " no"} es un heterograma")
+    print(f"{text}{'' if len(letras) == len(text) else ' no' } es un heterograma")
 
 #palabra o frase en la que cada letra aparece el mismo número de veces
 def es_isograma(text: str):
